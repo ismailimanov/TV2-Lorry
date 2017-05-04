@@ -11,6 +11,8 @@ if (mysqli_connect_errno()){
 }
 
 // Hent valgsteder data fra databasen
+// Vi henter kun 200 af gangen, så vi ikke bliver blokeret fra Google Maps API.
+// Vi vælger også kun de rækker, som ikke har en latitude endnu, så vi ikke overskriver gammel data.
 $valgData = mysqli_query($link, "SELECT * FROM valgsteder WHERE lat IS NULL LIMIT 200");
 
 // Tilføj latitude og longtitude til hver felt.
