@@ -1,0 +1,1 @@
+/* FADBAMSEVALG17 Javascript Fil */

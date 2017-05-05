@@ -1,9 +1,11 @@
 <!doctype html>
-<html>
+<html lang="da">
     <head>
-        <title>Stem</title>
+        <title>FADBAMSEVALG17 - Kommunalvalg 2017</title>
+        <meta charset="utf-8">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        Stem på DF
+        Indhold
     </body>
 </html>
