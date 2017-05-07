@@ -2,8 +2,17 @@
 @import 'variabler';
 @import 'reset';
 @import 'responsiv';
+@import 'oel';
 
 html, body {
     height: 100%;
-}
+    background: #FAFAFA;
 
+    header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+}

@@ -9,17 +9,29 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     </head>
     <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col s6 m6 l6">Logo</div>
+                    <div class="col s6 m6 l6">Menu</div>
+                </div>
+            </div>
+        </header>
+        <div class="topslider valign-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        Tesst
+                    </div>
+                </div>
+            </div>
+            <div class="oel oelAnim"></div>
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col s12">Test</div>
-            </div>
-            <div class="row">
-                <div class="col s12 m2">asd</div>
-                <div class="col s12 m2">asd</div>
-                <div class="col s12 m2">asd</div>
-                <div class="col s12 m2">asd</div>
-                <div class="col s12 m2">asd</div>
-                <div class="col s12 m2">asd</div>
+                <div class="col s12 m4 l4">test</div>
+                <div class="col s12 m4 l4">test</div>
+                <div class="col s12 m4 l4">test</div>
             </div>
         </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

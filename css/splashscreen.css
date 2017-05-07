@@ -20,7 +20,7 @@ body {
   body .oel, body .bobbler, body .skum {
     position: absolute; }
   body .bobbler, body .skum {
-    background: white; }
+    background: #FFFFFF; }
   body .bobbler {
     border-radius: 100%; }
   body .kop {
@@ -95,7 +95,7 @@ body {
       width: 10vmin;
       height: 10vmin;
       left: 14vmin;
-      top: 0vmin; }
+      top: 0; }
   body .skum {
     width: 5vmin;
     height: 14vmin;
