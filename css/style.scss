@@ -2,3 +2,117 @@
 @import 'variabler';
 @import 'reset';
 @import 'responsiv';
+@import 'oel';
+@import 'logo';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+html, body {
+    height: 100%;
+    background: $temaRGB;
+    font-family: 'Roboto', sans-serif;
+
+
+    header {
+        position: fixed;
+        background: $sideFarve;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 20;
+        height: 80px;
+        box-shadow: 0 3px 9px rgba(204, 204, 204,.6);
+
+        .menu {
+            display: block;
+            float: right;
+
+            li {
+                list-style: none;
+                display: inline-block;
+                line-height: 80px;
+                text-transform: uppercase;
+                font-weight: 500;
+                margin: 0 10px;
+                font-size: 18px;
+
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid transparent;
+                    transition: all .6s ease-in-out;
+
+                    &:hover {
+                        border-bottom: 1px solid $temaRGB;
+                        cursor: pointer;
+                    }
+                }
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .skumBund {
+        height: 58px;
+        width: 100%;
+        background: url("../img/skum-bund.png");
+        background-repeat: repeat-x;
+    }
+
+    .top {
+        border-bottom: 1px dashed $sideFarve;
+    }
+
+    .hvad {
+        h1 {
+            text-transform: uppercase;
+            color: $sideFarve;
+        }
+
+        p {
+            color: $sideFarve;
+            text-align: justify;
+            font-size: 17px;
+        }
+    }
+
+    .info {
+        margin-top: 40px;
+        text-align: center;
+        border-left: 1px dashed $sideFarve;
+
+        span {
+            color: $sideFarve;
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        p {
+            color: $sideFarve;
+        }
+    }
+
+    .seneste {
+
+        h2 {
+            color: $sideFarve;
+            text-align: center;
+        }
+    }
+    
+    .insta {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        color: #000;
+        background: $sideFarve;
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+}
