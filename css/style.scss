@@ -6,6 +6,8 @@
 @import 'logo';
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
 
 html, body {
     height: 100%;
@@ -22,6 +24,12 @@ html, body {
         z-index: 20;
         height: 80px;
         box-shadow: 0 3px 9px rgba(204, 204, 204,.6);
+
+        .logoTekst {
+            line-height: 80px;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 1.5em;
+        }
 
         .menu {
             display: block;
@@ -113,6 +121,6 @@ html, body {
         color: #000;
         background: $sideFarve;
         padding: 10px 0px;
-        font-size: 20px;
+        font-size: 1.2vmax;
     }
 }

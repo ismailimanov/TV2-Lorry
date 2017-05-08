@@ -10,11 +10,10 @@ $bgFarve: #7DCFB6;
 
 .logoHolder {
   display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
-  flex-direction: column;
-  .logo {
+  transform: scale(.3);
+
+  .logoet {
     position: relative;
   }
 
@@ -23,7 +22,7 @@ $bgFarve: #7DCFB6;
   }
 
   .bobbler, .skum {
-    background: #FFFFFF;
+    background: $logoFarve;
   }
 
   .bobbler {
@@ -33,7 +32,7 @@ $bgFarve: #7DCFB6;
   .kop {
     position: relative;
     @include storrelse(20vmin, 32vmin);
-    background: $kop;
+    background: $logoFarve;
     border-radius: 2vmin;
 
     &:before, &:after {
@@ -47,7 +46,7 @@ $bgFarve: #7DCFB6;
       top: 6vmin;
       @include storrelse(15vmin, 17vmin);
       border-radius: 19%;
-      background: $kop;
+      background: $logoFarve;
     }
 
     &:after {
@@ -66,6 +65,7 @@ $bgFarve: #7DCFB6;
     @include storrelse(16vmin, 28vmin);
     background: $temaFarve;
     border-radius: 1vmin;
+    z-index: 5;
 
     &:before, &:after {
       position: absolute;
@@ -95,11 +95,12 @@ $bgFarve: #7DCFB6;
     @include storrelse(10vmin, 10vmin);
     top: -5vmin;
     left: -3vmin;
+    z-index: 7;
 
     &:before, &:after {
       position: absolute;
       content: '';
-      background: white;
+      background: $logoFarve;
       border-radius: 100%;
     }
 
@@ -123,6 +124,7 @@ $bgFarve: #7DCFB6;
     left: -2vmin;
     box-shadow: 4vmin -6vmin 0 white;
     animation: 6s skum infinite;
+    z-index: 6;
   }
 
   .procent {

@@ -13,7 +13,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col s4 m4 l4">
-                        Logo
+                        <div class="logoTekst">
+                            FADBAMSEVALG17
+                        </div>
                     </div>
                     <div class="col s8 m8 l8">
                         <ul class="menu">
@@ -39,11 +41,11 @@
         <div class="skumBund"></div>
         <div class="container top">
             <div class="row">
-                <div class="col s8 m8 l8 hvad">
+                <div class="col s12 m8 l8 hvad">
                     <h1>Hvad fuck er valg?</h1>
-                    <p>Kommunalvalg bør interessere dig, hvis du ønsker flere billige ungdomsboliger i din kommune. Federe skaterbaner, sportsmuligheder og flere mødesteder, hvor i kan hænge ud. Bedre og større parkeringspladser til din øse, og ikke mindst flottere cykelstier, så turen bliver meget federe. Hvis du er træt af for lidt busforbindelser og for høje priser, og hvis du mangler et fritidsjob tæt på dit hjem! Hvis du uheldigvis står uden hjem eller har været igennem misbrug eller et liv i kriminalitet, så vil din indflydelse på kommunevalget kunne gøre en forskel på de her ting ud af mange mange flere!</p>
+                    <p class="flow-text">Kommunalvalg bør interessere dig, hvis du ønsker flere billige ungdomsboliger i din kommune. Federe skaterbaner, sportsmuligheder og flere mødesteder, hvor i kan hænge ud. Bedre og større parkeringspladser til din øse, og ikke mindst flottere cykelstier, så turen bliver meget federe. Hvis du er træt af for lidt busforbindelser og for høje priser, og hvis du mangler et fritidsjob tæt på dit hjem! Hvis du uheldigvis står uden hjem eller har været igennem misbrug eller et liv i kriminalitet, så vil din indflydelse på kommunevalget kunne gøre en forskel på de her ting ud af mange mange flere!</p>
                 </div>
-                <div class="col s4 m4 l4 info">
+                <div class="col s12 m4 l4 info">
                     <img src="http://placehold.it/150x200"><br>
                     <span>Fornavn Efternavn</span>
                     <p>Bla bla bla bla</p>
@@ -57,13 +59,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col s4 m4 l4 insta">
+                <div class="col s12 m12 l4 insta">
                     <img src="http://placehold.it/400x420">
                 </div>
-                <div class="col s4 m4 l4 insta">
+                <div class="col s12 m12 l4 insta">
                     <img src="http://placehold.it/400x420">
                 </div>
-                <div class="col s4 m4 l4 insta">
+                <div class="col s12 m12 l4 insta">
                     <img src="http://placehold.it/400x420">
                 </div>
             </div>
