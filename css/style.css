@@ -231,7 +231,6 @@ html, body {
         display: inline-block;
         line-height: 80px;
         text-transform: uppercase;
-        font-weight: 500;
         margin: 0 10px;
         font-size: 18px; }
         html header .menu li a, body header .menu li a {
@@ -239,10 +238,15 @@ html, body {
           color: inherit;
           padding-bottom: 5px;
           border-bottom: 1px solid transparent;
-          transition: all .6s ease-in-out; }
+          transition: all .6s ease-in-out;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400; }
           html header .menu li a:hover, body header .menu li a:hover {
-            border-bottom: 1px solid #efc720;
+            border-bottom: 2px solid #efc720;
             cursor: pointer; }
+        html header .menu li .active, body header .menu li .active {
+          border-bottom: 2px solid #efc720;
+          font-weight: 500; }
         html header .menu li:last-of-type, body header .menu li:last-of-type {
           margin-right: 0; }
   html .skumBund, body .skumBund {

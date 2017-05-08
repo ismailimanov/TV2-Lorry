@@ -19,7 +19,7 @@
                     </div>
                     <div class="col s8 m8 l8">
                         <ul class="menu">
-                            <li><a href="/forside">Forside</a></li>
+                            <li><a class="active" href="/forside">Forside</a></li>
                             <li><a href="/fadbamsevalg17">#FADBAMSEVALG17</a></li>
                             <li><a href="/om-os">Om Os</a></li>
                             <li><a href="/kontakt-os">Kontakt Os</a></li>
