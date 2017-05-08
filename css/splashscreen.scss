@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 @import 'variabler';
 
+$bgFarve: #7DCFB6;
+
 @mixin storrelse($b: 100%, $h: 100%) {
     width: $b;
     height: $h;
@@ -12,7 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background: #7DCFB6;
+    background: $bgFarve;
     flex-direction: column;
 
     .splashscreen {
@@ -56,7 +58,7 @@ body {
             @include storrelse(12vmin, 13vmin);
             top: 8vmin;
             left: 13vmin;
-            background: #7DCFB6;
+            background: $bgFarve;
             border-radius: 19%;
         }
     }

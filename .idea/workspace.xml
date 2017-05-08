@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="43ca0cb3-c5b9-4f26-8a2b-39428d10e303" name="Default" comment="" />
+=======
+<<<<<<< HEAD
+    <list default="true" id="43ca0cb3-c5b9-4f26-8a2b-39428d10e303" name="Default" comment="" />
+=======
+    <list default="true" id="43ca0cb3-c5b9-4f26-8a2b-39428d10e303" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_variabler.scss" afterPath="$PROJECT_DIR$/css/_variabler.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/splashscreen.css" afterPath="$PROJECT_DIR$/css/splashscreen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/splashscreen.scss" afterPath="$PROJECT_DIR$/css/splashscreen.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/splash.php" afterPath="$PROJECT_DIR$/splash.php" />
+    </list>
+>>>>>>> 32eaabbb4468c8c79ff162b6aa9766948019119b
+>>>>>>> 3ceadfd06df17092d4ce02f23581b2d026fae39e
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -376,21 +394,41 @@
       <option name="presentableId" value="Default" />
       <updated>1493726668880</updated>
       <workItem from="1493726670166" duration="3093000" />
+<<<<<<< HEAD
+      <workItem from="1493996460412" duration="903000" />
+=======
       <workItem from="1493996460412" duration="598000" />
       <workItem from="1494006317723" duration="10400000" />
       <workItem from="1494085720619" duration="2159000" />
       <workItem from="1494107653289" duration="3588000" />
+<<<<<<< HEAD
       <workItem from="1494193026128" duration="411000" />
+=======
+      <workItem from="1494193026128" duration="177000" />
+>>>>>>> 32eaabbb4468c8c79ff162b6aa9766948019119b
+>>>>>>> 3ceadfd06df17092d4ce02f23581b2d026fae39e
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="20249000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="3996000" />
+=======
+    <option name="totallyTimeSpent" value="20015000" />
+>>>>>>> 32eaabbb4468c8c79ff162b6aa9766948019119b
+>>>>>>> 3ceadfd06df17092d4ce02f23581b2d026fae39e
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13154761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13072917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 32eaabbb4468c8c79ff162b6aa9766948019119b
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
