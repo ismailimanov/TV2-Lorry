@@ -89,7 +89,25 @@
   background-attachment: fixed; }
 
 .fbv {
-  height: 40vh !important; }
+  height: 40vh !important;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://az616578.vo.msecnd.net/files/2015/06/01/635687269564982464562245736_84bd535841c98da8-crowd_800px.gif") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+
+.omostop {
+  height: 40vh !important;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://studentlife.uiowa.edu/assets/Uploads/Raise-Hand-Resized-Gif.gif") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed; }
+
+.kontaktostop {
+  height: 40vh !important;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("http://encdr.com/wp-content/uploads/2014/07/thenug-Y0jm3xXBZn.gif") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed; }
 
 .oel {
   width: calc( 100% + 4em);

@@ -1,7 +1,7 @@
 <?php
 include("header.php");
 ?>
-    <div class="topslider fbv valign-wrapper">
+    <div class="topslider omostop valign-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col s12 m12 l12">

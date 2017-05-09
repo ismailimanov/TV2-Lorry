@@ -20,10 +20,10 @@
             </div>
             <div class="col s8 m8 l8">
                 <ul class="menu">
-                    <li><a class="active" href="/forside">Forside</a></li>
-                    <li><a href="/fadbamsevalg17">#FADBAMSEVALG17</a></li>
-                    <li><a href="/om-os">Om Os</a></li>
-                    <li><a href="/kontakt-os">Kontakt Os</a></li>
+                    <li><a class="active" href="index.php">Forside</a></li>
+                    <li><a href="fadbamsevalg.php">#FADBAMSEVALG17</a></li>
+                    <li><a href="omos.php">Om Os</a></li>
+                    <li><a href="kontaktos.php">Kontakt Os</a></li>
                 </ul>
                 <ul class="resMenu">
                     <li id="menuKnap"><i class="material-icons">menu</i></li>
