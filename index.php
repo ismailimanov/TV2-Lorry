@@ -21,7 +21,7 @@ include("header.php");
                     <div class="col s12 m4 l4 info">
                         <img src="https://placehold.it/150x200"><br>
                         <span>Fornavn Efternavn</span>
-                        <p>Bla bla bla bla</p>
+                        <p>Bla bla bla bla bla</p>
                     </div>
                 </div>
             </div>
