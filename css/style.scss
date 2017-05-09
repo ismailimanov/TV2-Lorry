@@ -13,7 +13,11 @@ html, body {
     height: 100%;
     background: $temaRGB;
     font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
 
+    .indhold {
+        transition: all .4s ease-in-out;
+    }
 
     header {
         position: fixed;
@@ -90,7 +94,7 @@ html, body {
         p {
             color: $sideFarve;
             text-align: justify;
-            font-size: 17px;
+            font-size: 22px;
         }
     }
 
@@ -120,6 +124,150 @@ html, body {
     
     .insta {
         text-align: center;
+    }
+
+    .instaBilleder {
+        margin-top: 50px;
+    }
+
+    .omos {
+        margin-top: 50px;
+        border-bottom: 1px dashed $sideFarve;
+
+        p {
+            color: $sideFarve;
+            text-align: justify;
+            font-size: 22px;
+        }
+    }
+
+    .teamet {
+        border-bottom: 1px dashed $sideFarve;
+
+        h2 {
+            text-align: center;
+            color: $sideFarve;
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+
+        .billede {
+            background: red;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            border-radius: 100%;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: 0 0 5px darken($temaRGB, 7%);
+            }
+        }
+
+        span {
+            display: block;
+            width: 100%;
+            text-align: center;
+            color: $sideFarve;
+            font-size: 1.4em;
+            padding-top: 10px;
+        }
+
+        .helene {
+            background: url("../img/helene.jpg") no-repeat;
+            background-size: cover;
+            background-position: 0 -10px;
+        }
+
+        .ismail {
+            background: url("../img/ismail.jpg") no-repeat;
+            background-size: cover;
+            background-position: 0 -7px;
+        }
+
+        .line {
+            background: url("../img/line.jpg") no-repeat;
+            background-size: cover;
+            background-position: 0 -10px;
+        }
+        .mie {
+            background: url("../img/mie.jpg") no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .samarb {
+        margin-top: 20px;
+
+        h2 {
+            text-align: center;
+            color: $sideFarve;
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+
+        .samarbejdspartner {
+            text-align: right;
+
+            &:last-of-type {
+                text-align: left;
+            }
+        }
+    }
+
+    .hjemmeside {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: $sideFarve;
+        font-size: 12px;
+    }
+
+    .kontakt {
+        margin-top: 50px;
+
+        .kontaktOver {
+            text-align: center;
+            width: 100%;
+            display: block;
+            color: $sideFarve;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            background: $sideFarve;
+            border-radius: 10px;
+            border: none;
+            padding: 7px;
+            width: 100%;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        textarea {
+            min-height: 100px;
+        }
+
+        button {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 7px;
+            border-radius: 10px;
+            background: #43A047;
+            border: none;
+            color: $sideFarve;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 1.3em;
+            margin-top: 5px;
+
+            i {
+                font-size: 1.2em;
+                padding-right: 5px;
+            }
+        }
     }
 
     footer {

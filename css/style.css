@@ -7,6 +7,77 @@
   padding: 0;
   box-sizing: border-box; }
 
+.resMenu {
+  display: none;
+  float: right;
+  margin-top: 20px; }
+  .resMenu li {
+    display: inline-block; }
+    .resMenu li i {
+      font-size: 40px; }
+  .resMenu #menuKnap {
+    transition: all .4s ease-in-out; }
+    .resMenu #menuKnap:hover {
+      cursor: pointer; }
+
+.responsivMenu {
+  position: fixed;
+  top: 0;
+  right: -50vmin;
+  bottom: 0;
+  width: 50vmin;
+  background: #eac011;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  transition: all .4s ease-in-out;
+  box-shadow: inset 7px 0 5px #e5bc10; }
+  .responsivMenu .menuPunkt {
+    font-family: 'Roboto', sans-serif;
+    color: #FAFAFA;
+    font-weight: 500;
+    font-size: 2em;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    transition: all .4s ease-in-out; }
+    .responsivMenu .menuPunkt:hover {
+      background: #e5bc10;
+      cursor: pointer; }
+  .responsivMenu .resActive {
+    background: #e5bc10; }
+
+.aabn {
+  right: 0; }
+
+.menuAabn {
+  -webkit-transform: translatex(-50vmin);
+  -ms-transform: translatex(-50vmin);
+  transform: translatex(-50vmin); }
+
+.menuKnapAabn {
+  -webkit-transform: translatex(-50vmin);
+  -ms-transform: translatex(-50vmin);
+  transform: translatex(-50vmin); }
+
+@media screen and (max-width: 1050px) {
+  .menu {
+    display: none !important; }
+  .resMenu {
+    display: block !important; } }
+
 .topslider {
   width: 100%;
   height: 80vh;
@@ -16,6 +87,9 @@
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("../img/festival.gif") no-repeat;
   background-size: cover;
   background-attachment: fixed; }
+
+.fbv {
+  height: 40vh !important; }
 
 .oel {
   width: calc( 100% + 4em);
@@ -209,7 +283,10 @@
 html, body {
   height: 100%;
   background: #efc720;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  margin-top: 80px; }
+  html .indhold, body .indhold {
+    transition: all .4s ease-in-out; }
   html header, body header {
     position: fixed;
     background: #FAFAFA;
@@ -262,7 +339,7 @@ html, body {
   html .hvad p, body .hvad p {
     color: #FAFAFA;
     text-align: justify;
-    font-size: 17px; }
+    font-size: 22px; }
   html .info, body .info {
     margin-top: 40px;
     text-align: center;
@@ -278,6 +355,107 @@ html, body {
     text-align: center; }
   html .insta, body .insta {
     text-align: center; }
+  html .instaBilleder, body .instaBilleder {
+    margin-top: 50px; }
+  html .omos, body .omos {
+    margin-top: 50px;
+    border-bottom: 1px dashed #FAFAFA; }
+    html .omos p, body .omos p {
+      color: #FAFAFA;
+      text-align: justify;
+      font-size: 22px; }
+  html .teamet, body .teamet {
+    border-bottom: 1px dashed #FAFAFA; }
+    html .teamet h2, body .teamet h2 {
+      text-align: center;
+      color: #FAFAFA;
+      font-size: 3em;
+      text-transform: uppercase; }
+    html .teamet .billede, body .teamet .billede {
+      background: red;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      border-radius: 100%;
+      transition: all .3s ease-in-out; }
+      html .teamet .billede:hover, body .teamet .billede:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        box-shadow: 0 0 5px #dcb410; }
+    html .teamet span, body .teamet span {
+      display: block;
+      width: 100%;
+      text-align: center;
+      color: #FAFAFA;
+      font-size: 1.4em;
+      padding-top: 10px; }
+    html .teamet .helene, body .teamet .helene {
+      background: url("../img/helene.jpg") no-repeat;
+      background-size: cover;
+      background-position: 0 -10px; }
+    html .teamet .ismail, body .teamet .ismail {
+      background: url("../img/ismail.jpg") no-repeat;
+      background-size: cover;
+      background-position: 0 -7px; }
+    html .teamet .line, body .teamet .line {
+      background: url("../img/line.jpg") no-repeat;
+      background-size: cover;
+      background-position: 0 -10px; }
+    html .teamet .mie, body .teamet .mie {
+      background: url("../img/mie.jpg") no-repeat;
+      background-size: cover; }
+  html .samarb, body .samarb {
+    margin-top: 20px; }
+    html .samarb h2, body .samarb h2 {
+      text-align: center;
+      color: #FAFAFA;
+      font-size: 3em;
+      text-transform: uppercase; }
+    html .samarb .samarbejdspartner, body .samarb .samarbejdspartner {
+      text-align: right; }
+      html .samarb .samarbejdspartner:last-of-type, body .samarb .samarbejdspartner:last-of-type {
+        text-align: left; }
+  html .hjemmeside, body .hjemmeside {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 12px; }
+  html .kontakt, body .kontakt {
+    margin-top: 50px; }
+    html .kontakt .kontaktOver, body .kontakt .kontaktOver {
+      text-align: center;
+      width: 100%;
+      display: block;
+      color: #FAFAFA;
+      font-size: 1.6em;
+      margin-bottom: 15px; }
+    html .kontakt input[type="text"], html .kontakt input[type="email"], html .kontakt textarea, body .kontakt input[type="text"], body .kontakt input[type="email"], body .kontakt textarea {
+      background: #FAFAFA;
+      border-radius: 10px;
+      border: none;
+      padding: 7px;
+      width: 100%;
+      box-sizing: border-box;
+      outline: none; }
+    html .kontakt textarea, body .kontakt textarea {
+      min-height: 100px; }
+    html .kontakt button, body .kontakt button {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 7px;
+      border-radius: 10px;
+      background: #43A047;
+      border: none;
+      color: #FAFAFA;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 1.3em;
+      margin-top: 5px; }
+      html .kontakt button i, body .kontakt button i {
+        font-size: 1.2em;
+        padding-right: 5px; }
   html footer, body footer {
     text-align: center;
     color: #000;
