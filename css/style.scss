@@ -151,50 +151,68 @@ html, body {
             text-transform: uppercase;
         }
 
-        .billede {
-            background: red;
-            width: 200px;
+        .billedeHolder {
+            position: relative;
             height: 200px;
-            margin: 0 auto;
+            width: 200px;
             border-radius: 100%;
-            transition: all .3s ease-in-out;
+            overflow: hidden;
 
-            &:hover {
-                transform: scale(1.2);
-                box-shadow: 0 0 5px darken($temaRGB, 7%);
+            .billede {
+                background: transparent;
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
+                border-radius: 100%;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.2);
+                    box-shadow: 0 0 5px darken($temaRGB, 7%);
+                }
+            }
+
+            .helene {
+                background: url("../img/helene.jpg") no-repeat;
+                background-size: cover;
+                background-position: 0 -10px;
+            }
+
+            .ismail {
+                background: url("../img/ismail.jpg") no-repeat;
+                background-size: cover;
+            }
+
+            .line {
+                background: url("../img/line.jpg") no-repeat;
+                background-size: cover;
+                background-position: 0 -10px;
+            }
+            .mie {
+                background: url("../img/mie.jpg") no-repeat;
+                background-size: cover;
+            }
+
+            span {
+                display: block;
+                width: 100%;
+                text-align: center;
+                color: $sideFarve;
+                font-size: 1.2em;
+                position: absolute;
+                bottom: -30px;
+                opacity: 0;
+                left: 0;
+                background: rgba(0,0,0,.4);
+                transition: all .5s ease-in-out;
+            }
+
+            &:hover span {
+                bottom: 40px;
+                opacity: 1;
             }
         }
 
-        span {
-            display: block;
-            width: 100%;
-            text-align: center;
-            color: $sideFarve;
-            font-size: 1.4em;
-            padding-top: 10px;
-        }
-
-        .helene {
-            background: url("../img/helene.jpg") no-repeat;
-            background-size: cover;
-            background-position: 0 -10px;
-        }
-
-        .ismail {
-            background: url("../img/ismail.jpg") no-repeat;
-            background-size: cover;
-            background-position: 0 -7px;
-        }
-
-        .line {
-            background: url("../img/line.jpg") no-repeat;
-            background-size: cover;
-            background-position: 0 -10px;
-        }
-        .mie {
-            background: url("../img/mie.jpg") no-repeat;
-            background-size: cover;
-        }
     }
 
     .samarb {

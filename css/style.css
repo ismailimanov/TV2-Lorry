@@ -389,40 +389,53 @@ html, body {
       color: #FAFAFA;
       font-size: 3em;
       text-transform: uppercase; }
-    html .teamet .billede, body .teamet .billede {
-      background: red;
-      width: 200px;
+    html .teamet .billedeHolder, body .teamet .billedeHolder {
+      position: relative;
       height: 200px;
-      margin: 0 auto;
+      width: 200px;
       border-radius: 100%;
-      transition: all .3s ease-in-out; }
-      html .teamet .billede:hover, body .teamet .billede:hover {
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
-        box-shadow: 0 0 5px #dcb410; }
-    html .teamet span, body .teamet span {
-      display: block;
-      width: 100%;
-      text-align: center;
-      color: #FAFAFA;
-      font-size: 1.4em;
-      padding-top: 10px; }
-    html .teamet .helene, body .teamet .helene {
-      background: url("../img/helene.jpg") no-repeat;
-      background-size: cover;
-      background-position: 0 -10px; }
-    html .teamet .ismail, body .teamet .ismail {
-      background: url("../img/ismail.jpg") no-repeat;
-      background-size: cover;
-      background-position: 0 -7px; }
-    html .teamet .line, body .teamet .line {
-      background: url("../img/line.jpg") no-repeat;
-      background-size: cover;
-      background-position: 0 -10px; }
-    html .teamet .mie, body .teamet .mie {
-      background: url("../img/mie.jpg") no-repeat;
-      background-size: cover; }
+      overflow: hidden; }
+      html .teamet .billedeHolder .billede, body .teamet .billedeHolder .billede {
+        background: transparent;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        border-radius: 100%;
+        transition: all .3s ease-in-out; }
+        html .teamet .billedeHolder .billede:hover, body .teamet .billedeHolder .billede:hover {
+          -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+          transform: scale(1.2);
+          box-shadow: 0 0 5px #dcb410; }
+      html .teamet .billedeHolder .helene, body .teamet .billedeHolder .helene {
+        background: url("../img/helene.jpg") no-repeat;
+        background-size: cover;
+        background-position: 0 -10px; }
+      html .teamet .billedeHolder .ismail, body .teamet .billedeHolder .ismail {
+        background: url("../img/ismail.jpg") no-repeat;
+        background-size: cover; }
+      html .teamet .billedeHolder .line, body .teamet .billedeHolder .line {
+        background: url("../img/line.jpg") no-repeat;
+        background-size: cover;
+        background-position: 0 -10px; }
+      html .teamet .billedeHolder .mie, body .teamet .billedeHolder .mie {
+        background: url("../img/mie.jpg") no-repeat;
+        background-size: cover; }
+      html .teamet .billedeHolder span, body .teamet .billedeHolder span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #FAFAFA;
+        font-size: 1.2em;
+        position: absolute;
+        bottom: -30px;
+        opacity: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.4);
+        transition: all .5s ease-in-out; }
+      html .teamet .billedeHolder:hover span, body .teamet .billedeHolder:hover span {
+        bottom: 40px;
+        opacity: 1; }
   html .samarb, body .samarb {
     margin-top: 20px; }
     html .samarb h2, body .samarb h2 {

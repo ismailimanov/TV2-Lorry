@@ -28,20 +28,28 @@ include("header.php");
                 <h2>Teamet</h2>
             </div>
             <div class="col s12 m6 l3">
-                <div class="billede helene"></div>
-                <span>Helene Hyldgaard</span>
+                <div class="billedeHolder">
+                    <div class="billede helene"></div>
+                    <span>Helene Hyldgaard</span>
+                </div>
             </div>
             <div class="col s12 m6 l3">
-                <div class="billede ismail"></div>
-                <span>Ismail Imanov</span>
+                <div class="billedeHolder">
+                    <div class="billede ismail"></div>
+                    <span>Ismail Imanov</span>
+                </div>
             </div>
             <div class="col s12 m6 l3">
-                <div class="billede line"></div>
-                <span>Line Rydal</span>
+                <div class="billedeHolder">
+                    <div class="billede line"></div>
+                    <span>Line Rydal</span>
+                </div>
             </div>
             <div class="col s12 m6 l3">
-                <div class="billede mie"></div>
-                <span>Mie Raun</span>
+                <div class="billedeHolder">
+                    <div class="billede mie"></div>
+                    <span>Mie Raun</span>
+                </div>
             </div>
         </div>
     </div>
