@@ -6,7 +6,7 @@ $('.procent').animate(
             if(fx.prop == 'width') {
                 $(this).html(Math.floor(now * 100) / 100 + '%');
                 if(now == 100){
-                    //$(location).attr('href','index.php');
+                    $(location).attr('href','index.php');
                 }
             }
         }
