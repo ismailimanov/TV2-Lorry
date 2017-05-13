@@ -12,5 +12,7 @@ Link til FontAwesome: http://fontawesome.io/
 
 Skrifttyper benyttet på hjemmesiden:
 Roboto: https://fonts.googleapis.com/css?family=Roboto - Den standarde skrifttype på hjemmesiden, bruges til alt fra overskrifter til normale tekster.
+
 Fjalla One: https://fonts.googleapis.com/css?family=Fjalla+One - Brugt til selve logo teksten
+
 Material Icons: https://fonts.googleapis.com/icon?family=Material+Icons - En alternativ til FontAwesome
