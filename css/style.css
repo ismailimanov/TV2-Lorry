@@ -97,9 +97,9 @@
 
 .omostop {
   height: 40vh !important;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://studentlife.uiowa.edu/assets/Uploads/Raise-Hand-Resized-Gif.gif") no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7)), url("https://media.giphy.com/media/uZb8IF0pDkw5q/giphy.gif") no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-attachment: fixed; }
 
 .kontaktostop {
@@ -490,6 +490,6 @@ html, body {
   html footer, body footer {
     text-align: center;
     color: #000;
-    background: #FAFAFA;
+    background: #fff9c4;
     padding: 10px 0px;
     font-size: 1.2vmax; }
