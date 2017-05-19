@@ -3,7 +3,6 @@
 @import 'reset';
 @import 'responsiv';
 @import 'oel';
-@import 'logo';
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
@@ -29,10 +28,22 @@ html, body {
         height: 80px;
         box-shadow: 0 3px 9px rgba(204, 204, 204,.6);
 
-        .logoTekst {
-            line-height: 80px;
-            font-family: 'Fjalla One', sans-serif;
-            font-size: 1.5em;
+        .logoHolder {
+            display: flex;
+            flex-direction: row;
+            height: 80px;
+            align-items: center;
+
+            .logo {
+                max-height: 70px;
+                max-width: 70px;
+            }
+
+            .logoTekst {
+                font-family: 'Fjalla One', sans-serif;
+                font-size: 1.5em;
+                margin-left: 10px;
+            }
         }
 
         .menu {

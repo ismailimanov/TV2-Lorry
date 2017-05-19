@@ -14,8 +14,11 @@
     <div class="container">
         <div class="row">
             <div class="col s4 m4 l4">
-                <div class="logoTekst">
-                    FADBAMSEVALG17
+                <div class="logoHolder">
+                    <img src="img/logo.svg" class="logo">
+                    <div class="logoTekst">
+                        FADBAMSEVALG
+                    </div>
                 </div>
             </div>
             <div class="col s8 m8 l8">
