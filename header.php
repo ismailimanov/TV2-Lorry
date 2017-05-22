@@ -23,19 +23,19 @@
             </div>
             <div class="col s8 m8 l8">
                 <ul class="menu">
-                    <li><a class="active" href="index.php">Forside</a></li>
-                    <li><a href="fadbamsevalg.php">#FADBAMSEVALG17</a></li>
-                    <li><a href="omos.php">Om Os</a></li>
-                    <li><a href="kontaktos.php">Kontakt Os</a></li>
+                    <li><a <?php if($filNavn == "index"){ echo 'class="active"'; } ?> href="forside">Forside</a></li>
+                    <li><a <?php if($filNavn == "fadbamsevalg"){ echo 'class="active"'; } ?> href="fadbamsevalg">#FADBAMSEVALG17</a></li>
+                    <li><a <?php if($filNavn == "omos"){ echo 'class="active"'; } ?> href="om-os">Om Os</a></li>
+                    <li><a <?php if($filNavn == "kontaktos"){ echo 'class="active"'; } ?> href="kontakt-os">Kontakt Os</a></li>
                 </ul>
                 <ul class="resMenu">
                     <li id="menuKnap"><i class="material-icons">menu</i></li>
                 </ul>
                 <div class="responsivMenu">
-                    <div class="menuPunkt resActive">Forside</div>
-                    <div class="menuPunkt">#FADBAMSEVALG17</div>
-                    <div class="menuPunkt">Om Os</div>
-                    <div class="menuPunkt">Kontakt Os</div>
+                    <div onclick="location.href='forside'" class="menuPunkt<?php if($filNavn == "index"){ echo ' resActive'; } ?>">Forside</div>
+                    <div onclick="location.href='fadbamsevalg'" class="menuPunkt<?php if($filNavn == "fadbamsevalg"){ echo ' resActive'; } ?>">#FADBAMSEVALG17</div>
+                    <div onclick="location.href='om-os'" class="menuPunkt<?php if($filNavn == "omos"){ echo ' resActive'; } ?>">Om Os</div>
+                    <div onclick="location.href='kontakt-os'" class="menuPunkt<?php if($filNavn == "kontaktos"){ echo ' resActive'; } ?>">Kontakt Os</div>
                 </div>
             </div>
         </div>

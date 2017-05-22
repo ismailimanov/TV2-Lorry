@@ -1,4 +1,5 @@
 <?php
+$filNavn = basename(__FILE__, '.php');
 include("header.php");
 ?>
             <div class="topslider valign-wrapper">
