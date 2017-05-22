@@ -16,10 +16,20 @@ include("header.php");
     <div class="container omos">
         <div class="row">
             <div class="col s12 m12 l8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dicta excepturi inventore ipsum modi nihil quo tempora. Accusamus ad aut ducimus facilis impedit in, iusto laborum nulla optio pariatur voluptate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur culpa cupiditate impedit iure minima minus nesciunt non quam qui quo quos reprehenderit sint, sit tempora temporibus unde ut vero?</p>
+                <p class="flow-text">Vi er et team på 4 studerende, der i samarbejde med TV2 LORRY, Copenhagen Business Academy og Grøn koncert vil sætte mere fokus på at inddrage de unge mere i demokratiet – herunder kommunalvalg. Vi bruger kommunalvalget i november i 2017 som forsøgskanin. Målgruppen for kampagnen rammer de unge imellem 18-25 år da det ifølge statistikker er i den aldersgruppe, færre og færre stemmer i. Faktisk er niveauet af manglende stemmer blandt de unge så kritisk, at der ved sidste kommunalvalg var det næsten hele 40% af de 18-29 årige som valgte ikke at stemme. Det er disse tal vi ved vores kampagne vil forsøge at forbedre!</p>
             </div>
-            <div class="col s12 m12 l4">
-                Logo
+            <div class="col s12 m12 l4 omosLogoHolder">
+                <img class="omosLogo" src="img/logo.svg">
+            </div>
+        </div>
+    </div>
+    <div class="container video">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <h2>Kampagnevideo</h2>
+                <video poster="img/video_cover.png" controls>
+                    <source src="video/video.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>

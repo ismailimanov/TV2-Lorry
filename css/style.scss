@@ -151,6 +151,15 @@ html, body {
 
     .instaBilleder {
         margin-top: 50px;
+
+        .fadbamsevalgTekst {
+            margin-bottom: 50px;
+
+            p {
+                color: $sideFarve;
+                text-align: justify;
+            }
+        }
     }
 
     .omos {
@@ -161,6 +170,27 @@ html, body {
             color: $sideFarve;
             text-align: justify;
             font-size: 22px;
+        }
+        
+        .omosLogo {
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .video {
+        border-bottom: 1px dashed $sideFarve;
+
+        h2 {
+            text-align: center;
+            color: $sideFarve;
+            font-size: 3em;
+            text-transform: uppercase;
+        }
+
+        video {
+            width: 100%;
         }
     }
 
@@ -238,6 +268,52 @@ html, body {
 
     }
 
+    .admin {
+        margin-top: 50px;
+
+        h1 {
+            color: $sideFarve;
+            font-size: 2em;
+            text-decoration: uppercase;
+            text-align: center;
+        }
+
+        .adminLogind {
+
+            input[type="password"] {
+                background: #FFF;
+                border-radius: 7px;
+                padding: 0px 10px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            button {
+                width: 100%;
+                border: 0;
+                border-radius: 7px;
+                padding: 10px;
+                background: #FFF;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+
+        .kontaktBoks {
+            background: #FFF;
+            width: 50%;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+
     .samarb {
         margin-top: 20px;
 
@@ -275,6 +351,19 @@ html, body {
             color: $sideFarve;
             font-size: 1.6em;
             margin-bottom: 15px;
+        }
+
+        .virkOver {
+            width: 100%;
+            display: block;
+            color: $sideFarve;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        .virkInfo {
+            color: $sideFarve;
+            font-size: 18px;
         }
 
         input[type="text"], input[type="email"], textarea {

@@ -47,7 +47,7 @@
     font-family: 'Roboto', sans-serif;
     color: #FAFAFA;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.65em;
     padding: 10px 0;
     width: 100%;
     text-align: center;
@@ -76,6 +76,41 @@
     display: none !important; }
   .resMenu {
     display: block !important; } }
+
+@media screen and (max-width: 600px) {
+  .logoTekst {
+    display: none; }
+  .omosLogoHolder {
+    margin-top: 50px !important; }
+  .samarbejdspartner {
+    text-align: center !important;
+    margin-bottom: 10px; }
+  .hvad {
+    border-right: none !important; }
+  .seneste h2 {
+    font-size: 2.2rem;
+    text-align: center !important; }
+  .samarb h2 {
+    font-size: 1.8em !important;
+    text-align: center !important; }
+  .video h2 {
+    font-size: 2em !important;
+    text-align: center !important; }
+  .billedeHolder {
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  .virkOver {
+    margin-top: 30px; }
+  .menuPunkt {
+    font-size: 1.4em !important; }
+  .topslider, .fbv, .omostop, .kontaktostop {
+    background-attachment: scroll !important; } }
+
+@media screen and (max-width: 400px) {
+  .virkOver {
+    font-size: 1.4em !important; }
+  .menuPunkt {
+    font-size: 1em !important; } }
 
 .topslider {
   width: 100%;
@@ -254,6 +289,11 @@ html, body {
     text-align: center; }
   html .instaBilleder, body .instaBilleder {
     margin-top: 50px; }
+    html .instaBilleder .fadbamsevalgTekst, body .instaBilleder .fadbamsevalgTekst {
+      margin-bottom: 50px; }
+      html .instaBilleder .fadbamsevalgTekst p, body .instaBilleder .fadbamsevalgTekst p {
+        color: #FAFAFA;
+        text-align: justify; }
   html .omos, body .omos {
     margin-top: 50px;
     border-bottom: 1px dashed #FAFAFA; }
@@ -261,6 +301,19 @@ html, body {
       color: #FAFAFA;
       text-align: justify;
       font-size: 22px; }
+    html .omos .omosLogo, body .omos .omosLogo {
+      width: 90%;
+      display: block;
+      margin: 0 auto; }
+  html .video, body .video {
+    border-bottom: 1px dashed #FAFAFA; }
+    html .video h2, body .video h2 {
+      text-align: center;
+      color: #FAFAFA;
+      font-size: 3em;
+      text-transform: uppercase; }
+    html .video video, body .video video {
+      width: 100%; }
   html .teamet, body .teamet {
     border-bottom: 1px dashed #FAFAFA; }
     html .teamet h2, body .teamet h2 {
@@ -315,6 +368,37 @@ html, body {
       html .teamet .billedeHolder:hover span, body .teamet .billedeHolder:hover span {
         bottom: 40px;
         opacity: 1; }
+  html .admin, body .admin {
+    margin-top: 50px; }
+    html .admin h1, body .admin h1 {
+      color: #FAFAFA;
+      font-size: 2em;
+      text-decoration: uppercase;
+      text-align: center; }
+    html .admin .adminLogind input[type="password"], body .admin .adminLogind input[type="password"] {
+      background: #FFF;
+      border-radius: 7px;
+      padding: 0px 10px;
+      width: 100%;
+      box-sizing: border-box; }
+    html .admin .adminLogind button, body .admin .adminLogind button {
+      width: 100%;
+      border: 0;
+      border-radius: 7px;
+      padding: 10px;
+      background: #FFF;
+      margin: 0 auto;
+      display: block; }
+    html .admin .kontaktBoks, body .admin .kontaktBoks {
+      background: #FFF;
+      width: 50%;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 0 auto;
+      margin-bottom: 10px; }
+      html .admin .kontaktBoks a, body .admin .kontaktBoks a {
+        text-decoration: none;
+        color: inherit; }
   html .samarb, body .samarb {
     margin-top: 20px; }
     html .samarb h2, body .samarb h2 {
@@ -341,6 +425,15 @@ html, body {
       color: #FAFAFA;
       font-size: 1.6em;
       margin-bottom: 15px; }
+    html .kontakt .virkOver, body .kontakt .virkOver {
+      width: 100%;
+      display: block;
+      color: #FAFAFA;
+      font-size: 1.6em;
+      margin-bottom: 15px; }
+    html .kontakt .virkInfo, body .kontakt .virkInfo {
+      color: #FAFAFA;
+      font-size: 18px; }
     html .kontakt input[type="text"], html .kontakt input[type="email"], html .kontakt textarea, body .kontakt input[type="text"], body .kontakt input[type="email"], body .kontakt textarea {
       background: #FAFAFA;
       border-radius: 10px;
