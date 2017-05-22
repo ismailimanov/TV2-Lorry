@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="da">
 <head>
+    <?php
+        if($filNavn == "index"){
+            echo "<title>Forside - FADBAMSEVALG17 - Kommunalvalg 2017</title>";
+        } elseif($filNavn == "fadbamsevalg"){
+            echo "<title>FADBAMSEVALG17 - Kommunalvalg 2017</title>";
+        } elseif($filNavn == "omos"){
+            echo "<title>Om Os - FADBAMSEVALG17 - Kommunalvalg 2017</title>";
+        } elseif($filNavn == "kontaktos"){
+            echo "<title>Kontakt Os - FADBAMSEVALG17 - Kommunalvalg 2017</title>";
+        }
+    ?>
     <title>FADBAMSEVALG17 - Kommunalvalg 2017</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,12 +25,14 @@
     <div class="container">
         <div class="row">
             <div class="col s4 m4 l4">
-                <div class="logoHolder">
-                    <img src="img/logo.svg" class="logo">
-                    <div class="logoTekst">
-                        FADBAMSEVALG
+                <a href="forside" class="logoLink">
+                    <div class="logoHolder">
+                        <img src="img/logo.svg" class="logo">
+                        <div class="logoTekst">
+                            FADBAMSEVALG
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col s8 m8 l8">
                 <ul class="menu">

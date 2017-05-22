@@ -171,24 +171,26 @@ html, body {
     z-index: 20;
     height: 80px;
     box-shadow: 0 3px 9px rgba(204, 204, 204, 0.6); }
-    html header .logoHolder, body header .logoHolder {
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-      flex-direction: row;
-      height: 80px;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center; }
-      html header .logoHolder .logo, body header .logoHolder .logo {
-        max-height: 70px;
-        max-width: 70px; }
-      html header .logoHolder .logoTekst, body header .logoHolder .logoTekst {
-        font-family: 'Fjalla One', sans-serif;
-        font-size: 1.5em;
-        margin-left: 10px; }
+    html header .logoLink, body header .logoLink {
+      color: inherit; }
+      html header .logoLink .logoHolder, body header .logoLink .logoHolder {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        height: 80px;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        html header .logoLink .logoHolder .logo, body header .logoLink .logoHolder .logo {
+          max-height: 70px;
+          max-width: 70px; }
+        html header .logoLink .logoHolder .logoTekst, body header .logoLink .logoHolder .logoTekst {
+          font-family: 'Fjalla One', sans-serif;
+          font-size: 1.5em;
+          margin-left: 10px; }
     html header .menu, body header .menu {
       display: block;
       float: right; }
