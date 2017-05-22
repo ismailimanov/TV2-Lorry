@@ -30,7 +30,7 @@ html, body {
 
         .logoLink {
             color: inherit;
-            
+
             .logoHolder {
                 display: flex;
                 flex-direction: row;
@@ -101,6 +101,8 @@ html, body {
     }
 
     .hvad {
+        border-right: 1px dashed $sideFarve;
+
         h1 {
             text-transform: uppercase;
             color: $sideFarve;
@@ -110,22 +112,28 @@ html, body {
             color: $sideFarve;
             text-align: justify;
             font-size: 22px;
+            padding-right: 10px;
         }
     }
 
     .info {
         margin-top: 40px;
         text-align: center;
-        border-left: 1px dashed $sideFarve;
+
+        img {
+            border-radius: 100%;
+        }
 
         span {
             color: $sideFarve;
             font-weight: 500;
-            font-size: 20px;
+            font-size: 24px;
         }
 
         p {
             color: $sideFarve;
+            font-size: 19px;
+            margin-top: 5px;
         }
     }
 

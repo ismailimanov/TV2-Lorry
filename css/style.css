@@ -224,23 +224,29 @@ html, body {
     background-repeat: repeat-x; }
   html .top, body .top {
     border-bottom: 1px dashed #FAFAFA; }
-  html .hvad h1, body .hvad h1 {
-    text-transform: uppercase;
-    color: #FAFAFA; }
-  html .hvad p, body .hvad p {
-    color: #FAFAFA;
-    text-align: justify;
-    font-size: 22px; }
+  html .hvad, body .hvad {
+    border-right: 1px dashed #FAFAFA; }
+    html .hvad h1, body .hvad h1 {
+      text-transform: uppercase;
+      color: #FAFAFA; }
+    html .hvad p, body .hvad p {
+      color: #FAFAFA;
+      text-align: justify;
+      font-size: 22px;
+      padding-right: 10px; }
   html .info, body .info {
     margin-top: 40px;
-    text-align: center;
-    border-left: 1px dashed #FAFAFA; }
+    text-align: center; }
+    html .info img, body .info img {
+      border-radius: 100%; }
     html .info span, body .info span {
       color: #FAFAFA;
       font-weight: 500;
-      font-size: 20px; }
+      font-size: 24px; }
     html .info p, body .info p {
-      color: #FAFAFA; }
+      color: #FAFAFA;
+      font-size: 19px;
+      margin-top: 5px; }
   html .seneste h2, body .seneste h2 {
     color: #FAFAFA;
     text-align: center; }
