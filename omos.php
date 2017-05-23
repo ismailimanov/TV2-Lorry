@@ -27,9 +27,6 @@ include("header.php");
         <div class="row">
             <div class="col s12 m12 l12">
                 <h2>Kampagnevideo</h2>
-                <video poster="img/video_cover.png" controls>
-                    <source src="video/video.mp4" type="video/mp4">
-                </video>
                 <video id="my-video" class="video-js" controls preload="auto" poster="img/video_cover.png" data-setup="{}">
                     <source src="video/video.mp4" type='video/mp4'>
                     <source src="video/video.WebM" type='video/webm'>
