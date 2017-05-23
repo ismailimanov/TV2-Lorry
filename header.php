@@ -22,6 +22,18 @@ include("inc/config.php");
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <?php
+    if($filNavn == "index"){
+        echo '<meta name="description" content="Kommunalvalg bør interessere dig, hvis du ønsker flere billige ungdomsboliger i din kommune. Federe skaterbaner og flere mødesteder, hvor i kan hænge ud.">';
+    } elseif($filNavn == "fadbamsevalg"){
+        echo '<meta name="description" content="Deltag i konkurrencen hvor du skal hashtag FADBAMSEVALG17. Alle billeder der har dette hashtag er med i konkurrencen om at vinde gratis Grøn Koncert billetter.">';
+    } elseif($filNavn == "omos"){
+        echo '<meta name="description" content="Vi er et team på fire studerende, der i samarbejde med TV2 LORRY, CPH Business og Grøn koncert vil sætte mere fokus på at inddrage unge i demokratiet.">';
+    } elseif($filNavn == "kontaktos"){
+        echo '<meta name="description" content="Har du nogle spørgsmål angående kampagnen? Så kan du skrive til os her inde fra vores kontaktformular.">';
+    }
+    ?>
+
 </head>
 <body>
 <header>

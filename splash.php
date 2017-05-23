@@ -1,3 +1,11 @@
+<?php
+include("inc/config.php");
+if($_SESSION["first_time"] == 0){
+    $_SESSION["first_time"] = 1;
+}
+$sidensLink = $_GET["side"];
+$sidensLink = str_replace("/TV2-Lorry/loading?side=", "", $sidensLink);
+?>
 <!doctype html>
 <html lang="da">
     <head>
@@ -18,6 +26,21 @@
     <div class="procentBeholder">
         <div class="procent">100%</div>
     </div>
-    <script src="js/splashscreen.js"></script>
+    <script type="text/javascript">
+        $('.procent').animate(
+            {width:'100%'},
+            {
+                duration:3500,
+                step: function(now, fx) {
+                    if(fx.prop == 'width') {
+                        $(this).html(Math.floor(now * 100) / 100 + '%');
+                        if(now == 100){
+                            $(location).attr('href','<?=$sidensLink?>');
+                        }
+                    }
+                }
+            }
+        );
+    </script>
     </body>
 </html>

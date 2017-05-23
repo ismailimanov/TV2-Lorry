@@ -6,4 +6,5 @@ RewriteRule ^fadbamsevalg$ fadbamsevalg\.php
 RewriteRule ^om-os$ omos\.php
 RewriteRule ^kontakt-os$ kontaktos\.php
 RewriteRule ^admin$ admin\.php
+RewriteRule ^loading$ splash\.php
 

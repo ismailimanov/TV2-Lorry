@@ -294,6 +294,9 @@ html, body {
       html .instaBilleder .fadbamsevalgTekst p, body .instaBilleder .fadbamsevalgTekst p {
         color: #FAFAFA;
         text-align: justify; }
+      html .instaBilleder .fadbamsevalgTekst .omosLink, body .instaBilleder .fadbamsevalgTekst .omosLink {
+        color: inherit;
+        text-decoration: underline; }
   html .omos, body .omos {
     margin-top: 50px;
     border-bottom: 1px dashed #FAFAFA; }

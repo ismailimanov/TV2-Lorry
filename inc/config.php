@@ -1,4 +1,11 @@
 <?php
+session_start();
+if(!isset($_SESSION["first_time"])){
+    $_SESSION["first_time"] = 0;
+}
+
+
+
 /* FADBAMSEVALG17 Config Fil */
 
     $link = mysqli_connect("localhost", "root", "", "fadbamsevalg");;
@@ -11,4 +18,9 @@
     $link->set_charset('utf8');
 
     include("funktioner.php");
+
+    $sideLink = $_SERVER['REQUEST_URI'];
+    if($_SESSION["first_time"] == 0){
+        header("Location: loading?side=$sideLink");
+    }
 ?>

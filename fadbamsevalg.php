@@ -16,8 +16,8 @@ include("header.php");
     <div class="container instaBilleder">
         <div class="row fadbamsevalgTekst">
             <div class="col s12 m12 l12">
-                <p class="flow-text">På Instagram kører vi lige nu en konkurrence hvor du skal hashtagge FADBAMSEVALG17. Finde ud af, hvordan du deltager i konkurrencen, ved at se kampagnevideoen på om os siden.
-                    Alle billeder der har dette hashtag er med i konkurrencen om at vinde gratis Grøn Koncert billetter.</p>
+                <p class="flow-text">På Instagram kører vi lige nu en konkurrence hvor du skal hashtag #FADBAMSEVALG17. Find ud af, hvordan du deltager i konkurrencen, ved at se kampagnevideoen på <a href="om-os" class="omosLink">om os</a> siden.
+                    Alle billeder med dette hashtag er med i konkurrencen om at vinde gratis Grøn Koncert billetter.</p>
             </div>
         </div>
         <div class="row">
