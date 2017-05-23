@@ -27,7 +27,7 @@ include("header.php");
         <div class="row">
             <div class="col s12 m12 l12">
                 <h2>Kampagnevideo</h2>
-                <video loop autoplay controls="true" width='100%' height='100%' src='video/video.mp4' type='video/mp4'></video>
+                <video controls="true" width='100%' height='100%' src='//video.mp4' type='video/mp4'></video>
             </div>
         </div>
     </div>
