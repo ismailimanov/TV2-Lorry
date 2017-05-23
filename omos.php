@@ -27,14 +27,7 @@ include("header.php");
         <div class="row">
             <div class="col s12 m12 l12">
                 <h2>Kampagnevideo</h2>
-                <video id="my-video" class="video-js" controls preload="auto" poster="img/video_cover.png" data-setup="{}">
-                    <source src="video/video.mp4" type='video/mp4'>
-                    <source src="video/video.WebM" type='video/webm'>
-                    <p class="vjs-no-js">
-                        To view this video please enable JavaScript, and consider upgrading to a web browser that
-                        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                    </p>
-                </video>
+                <video loop autoplay controls="true" width='100%' height='100%' src='video/video.mp4' type='video/mp4'></video>
             </div>
         </div>
     </div>
