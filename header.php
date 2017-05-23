@@ -22,6 +22,7 @@ include("inc/config.php");
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/5.19.2/video-js.css" rel="stylesheet">
     <?php
     if($filNavn == "index"){
         echo '<meta name="description" content="Kommunalvalg bør interessere dig, hvis du ønsker flere billige ungdomsboliger i din kommune. Federe skaterbaner og flere mødesteder, hvor i kan hænge ud.">';
