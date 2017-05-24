@@ -11,7 +11,7 @@ body {
   align-items: center;
   height: 100vh;
   overflow: hidden;
-  background: #7DCFB6;
+  background: #8FBDE6;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
@@ -46,7 +46,7 @@ body {
       height: 13vmin;
       top: 8vmin;
       left: 13vmin;
-      background: #7DCFB6;
+      background: #8FBDE6;
       border-radius: 19%; }
   body .oel {
     top: 2vmin;
