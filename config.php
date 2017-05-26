@@ -18,6 +18,7 @@ if(!isset($_SESSION["first_time"])){
     $link->set_charset('utf8');
 
     include("funktioner.php");
+    
 
     $sideLink = $_SERVER['REQUEST_URI'];
     if($_SESSION["first_time"] == 0){
