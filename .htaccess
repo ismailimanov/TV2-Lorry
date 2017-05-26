@@ -8,3 +8,4 @@ RewriteRule ^kontakt-os$ kontaktos\.php
 RewriteRule ^admin$ admin\.php
 RewriteRule ^loading$ splash\.php
 
+DirectoryIndex forside
