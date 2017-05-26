@@ -21,6 +21,6 @@ if(!isset($_SESSION["first_time"])){
 
     $sideLink = $_SERVER['REQUEST_URI'];
     if($_SESSION["first_time"] == 0){
-        header("Location: loading?side=$sideLink");
+        //header("Location: loading?side=$sideLink");
     }
 ?>
