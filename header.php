@@ -34,6 +34,7 @@ include("inc/config.php");
         echo '<meta name="description" content="Har du nogle spørgsmål angående kampagnen? Så kan du skrive til os her inde fra vores kontaktformular.">';
     }
     ?>
+    <meta name="keywords" content="FADBAMSEVALG, FADBAMSEVALG17, FADBAMSEVALG 2017, Kommunalvalg, Kommunalvalg17, Kommunalvalg 2017, Valg, Valg17, Valg 2017, Grøn Koncert, Grøn Koncert 2018, Grøn Koncert Billetter">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
