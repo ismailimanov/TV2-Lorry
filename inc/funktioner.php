@@ -32,4 +32,56 @@
             <?php
         }
     }
+
+    function loadingHead(){
+        if($_SESSION["first_time"] == 0){
+            ?>
+                <link href="css/splashscreen.css" type="text/css" rel="stylesheet">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <?php
+        }
+    }
+
+    function loadingBody(){
+        if($_SESSION["first_time"] == 0){
+        ?>
+        <div class="loadingBoks">
+            <div class="splashscreen">
+                <div class="kop">
+                    <div class="oel"></div>
+                </div>
+                <div class="bobbler"></div>
+                <div class="skum"></div>
+            </div>
+            <div class="procentBeholder">
+                <div class="procent">100%</div>
+            </div>
+        </div>
+        <?php
+        }
+    }
+
+    function loadingScript(){
+        if($_SESSION["first_time"] == 0){
+        ?>
+            <script type="text/javascript">
+                $('.procent').animate(
+                    {width:'100%'},
+                    {
+                        duration:3500,
+                        step: function(now, fx) {
+                            if(fx.prop == 'width') {
+                                $(this).html(Math.floor(now * 100) / 100 + '%');
+                                if(now == 100){
+                                    $('.loadingBoks').fadeOut('slow');
+                                }
+                            }
+                        }
+                    }
+                );
+            </script>
+        <?php
+            $_SESSION["first_time"] = 1;
+        }
+    }
 ?>

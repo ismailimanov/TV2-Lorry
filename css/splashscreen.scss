@@ -8,7 +8,7 @@ $bgFarve: #8FBDE6;
     height: $h;
 }
 
-body {
+.loadingBoks {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,12 @@ body {
     overflow: hidden;
     background: $bgFarve;
     flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2000;
 
     .splashscreen {
         position: relative;
@@ -69,6 +75,7 @@ body {
         @include storrelse(16vmin, 28vmin);
         background: $temaFarve;
         border-radius: 1vmin;
+        z-index: 1;
 
         &:before, &:after {
             position: absolute;
@@ -126,6 +133,7 @@ body {
         left: -2vmin;
         box-shadow: 4vmin -6vmin 0 white;
         animation: 6s skum infinite;
+        z-index: 2;
     }
 
     .procent {

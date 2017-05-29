@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
-body {
+.loadingBoks {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -14,25 +14,31 @@ body {
   background: #8FBDE6;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column; }
-  body .splashscreen {
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000; }
+  .loadingBoks .splashscreen {
     position: relative; }
-  body .oel, body .bobbler, body .skum {
+  .loadingBoks .oel, .loadingBoks .bobbler, .loadingBoks .skum {
     position: absolute; }
-  body .bobbler, body .skum {
+  .loadingBoks .bobbler, .loadingBoks .skum {
     background: #FFFFFF; }
-  body .bobbler {
+  .loadingBoks .bobbler {
     border-radius: 100%; }
-  body .kop {
+  .loadingBoks .kop {
     position: relative;
     width: 20vmin;
     height: 32vmin;
     background: #FFFFFF;
     border-radius: 2vmin; }
-    body .kop:before, body .kop:after {
+    .loadingBoks .kop:before, .loadingBoks .kop:after {
       position: absolute;
       content: ''; }
-    body .kop:before {
+    .loadingBoks .kop:before {
       z-index: -2;
       left: 12vmin;
       top: 6vmin;
@@ -40,7 +46,7 @@ body {
       height: 17vmin;
       border-radius: 19%;
       background: #FFFFFF; }
-    body .kop:after {
+    .loadingBoks .kop:after {
       z-index: -1;
       width: 12vmin;
       height: 13vmin;
@@ -48,19 +54,20 @@ body {
       left: 13vmin;
       background: #8FBDE6;
       border-radius: 19%; }
-  body .oel {
+  .loadingBoks .oel {
     top: 2vmin;
     left: 2vmin;
     width: 16vmin;
     height: 28vmin;
     background: rgba(239, 199, 32, 0.65);
-    border-radius: 1vmin; }
-    body .oel:before, body .oel:after {
+    border-radius: 1vmin;
+    z-index: 1; }
+    .loadingBoks .oel:before, .loadingBoks .oel:after {
       position: absolute;
       content: '';
       background: rgba(220, 180, 16, 0.65);
       border-radius: 100%; }
-    body .oel:before {
+    .loadingBoks .oel:before {
       -webkit-animation: 4s bobblerOp infinite;
       animation: 4s bobblerOp infinite;
       width: 2vmin;
@@ -68,7 +75,7 @@ body {
       bottom: 2vmin;
       left: 5vmin;
       box-shadow: 7vmin -15vmin 0 rgba(220, 180, 16, 0.65), 4vmin -10vmin 0 rgba(220, 180, 16, 0.65), 6vmin -3vmin 0 rgba(220, 180, 16, 0.65); }
-    body .oel:after {
+    .loadingBoks .oel:after {
       -webkit-animation: 4s bobblerOp infinite;
       animation: 4s bobblerOp infinite;
       width: 1.5vmin;
@@ -76,27 +83,27 @@ body {
       bottom: 6vmin;
       left: 7vmin;
       box-shadow: -3vmin -8vmin 0 rgba(220, 180, 16, 0.65), 7vmin -5vmin 0 rgba(220, 180, 16, 0.65); }
-  body .bobbler {
+  .loadingBoks .bobbler {
     width: 10vmin;
     height: 10vmin;
     top: -5vmin;
     left: -3vmin; }
-    body .bobbler:before, body .bobbler:after {
+    .loadingBoks .bobbler:before, .loadingBoks .bobbler:after {
       position: absolute;
       content: '';
       background: white;
       border-radius: 100%; }
-    body .bobbler:before {
+    .loadingBoks .bobbler:before {
       width: 12vmin;
       height: 12vmin;
       left: 5vmin;
       top: -2vmin; }
-    body .bobbler:after {
+    .loadingBoks .bobbler:after {
       width: 10vmin;
       height: 10vmin;
       left: 14vmin;
       top: 0; }
-  body .skum {
+  .loadingBoks .skum {
     width: 5vmin;
     height: 14vmin;
     top: 1vmin;
@@ -104,8 +111,9 @@ body {
     left: -2vmin;
     box-shadow: 4vmin -6vmin 0 white;
     -webkit-animation: 6s skum infinite;
-    animation: 6s skum infinite; }
-  body .procent {
+    animation: 6s skum infinite;
+    z-index: 2; }
+  .loadingBoks .procent {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #FFF;

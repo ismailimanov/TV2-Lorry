@@ -45,8 +45,14 @@ include("inc/config.php");
         ga('send', 'pageview');
 
     </script>
+    <?php
+        loadingHead();
+    ?>
 </head>
 <body>
+<?php
+    loadingBody();
+?>
 <header>
     <div class="container">
         <div class="row">
