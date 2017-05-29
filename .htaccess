@@ -8,3 +8,5 @@ RewriteRule ^kontakt-os$ kontaktos\.php
 RewriteRule ^admin$ admin\.php
 RewriteRule ^loading$ splash\.php
 
+RewriteCond %{SERVER_PORT} ^80$
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
