@@ -8,7 +8,7 @@ if(!isset($_SESSION["first_time"])){
 
 /* FADBAMSEVALG17 Config Fil */
 
-    $link = mysqli_connect("localhost", "root", "", "fadbamsevalg");;
+    $link = mysqli_connect("localhost", "root", "", "fadbamsevalg");
 
     if (mysqli_connect_errno()){
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
