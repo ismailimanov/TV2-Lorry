@@ -2,10 +2,10 @@
 $filNavn = basename(__FILE__, '.php');
 include("header.php");
 if(isset($_POST["sendBesked"])){
-    $fuldeNavn = $_POST["fuldeNavn"];
-    $email = $_POST["email"];
-    $emne = $_POST["emne"];
-    $besked = $_POST["besked"];
+    $fuldeNavn = htmlspecialchars(strip_tags($_POST["fuldeNavn"]));
+    $email = htmlspecialchars(strip_tags($_POST["email"]));
+    $emne = htmlspecialchars(strip_tags($_POST["emne"]));
+    $besked = htmlspecialchars(strip_tags($_POST["besked"]));
 
     sendBesked($link, $fuldeNavn, $email, $emne, $besked);
 }
