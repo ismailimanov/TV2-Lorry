@@ -29,7 +29,7 @@ include("header.php");
             <div class="col s12 m12 l12">
                 <h2>Kampagnevideo</h2>
                 <div class="videowrapper">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xGPGBgdWMAU" frameborder="0" allowfullscreen></iframe>
+                <iframe class="youtubeVideo" src="https://www.youtube.com/embed/xGPGBgdWMAU" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

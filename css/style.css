@@ -255,8 +255,7 @@ html, body {
   html .skumBund, body .skumBund {
     height: 166px;
     width: 100%;
-    background: url("../img/oelskum.png");
-    background-repeat: repeat-x; }
+    background: url("../img/oelskum.png") repeat-x; }
   html .top, body .top {
     border-bottom: 1px dashed #FAFAFA; }
   html .hvad, body .hvad {
@@ -329,12 +328,12 @@ html, body {
       padding-bottom: 56.25%;
       padding-top: 25px;
       height: 0; }
-    html .video .videowrapper iframe, body .video .videowrapper iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%; }
+      html .video .videowrapper iframe, body .video .videowrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
   html .teamet, body .teamet {
     border-bottom: 1px dashed #FAFAFA; }
     html .teamet h2, body .teamet h2 {
@@ -394,12 +393,12 @@ html, body {
     html .admin h1, body .admin h1 {
       color: #FAFAFA;
       font-size: 2em;
-      text-decoration: uppercase;
+      text-transform: uppercase;
       text-align: center; }
     html .admin .adminLogind input[type="password"], body .admin .adminLogind input[type="password"] {
       background: #FFF;
       border-radius: 7px;
-      padding: 0px 10px;
+      padding: 0 10px;
       width: 100%;
       box-sizing: border-box; }
     html .admin .adminLogind button, body .admin .adminLogind button {
@@ -484,5 +483,5 @@ html, body {
     text-align: center;
     color: #000;
     background: #fff9c4;
-    padding: 10px 0px;
+    padding: 10px 0;
     font-size: 1.2vmax; }
