@@ -106,6 +106,7 @@ html, body {
         h1 {
             text-transform: uppercase;
             color: $sideFarve;
+            font-size: 3.5em;
         }
 
         p {
@@ -170,6 +171,13 @@ html, body {
     .omos {
         margin-top: 50px;
         border-bottom: 1px dashed $sideFarve;
+
+        h1 {
+            text-transform: uppercase;
+            color: $sideFarve;
+            font-size: 3.5em;
+            margin-top: 0;
+        }
 
         p {
             color: $sideFarve;

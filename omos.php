@@ -16,6 +16,7 @@ include("header.php");
     <div class="container omos">
         <div class="row">
             <div class="col s12 m12 l8">
+                <h1>Hvem er vi?</h1>
                 <p class="flow-text">Vi er et team på fire studerende, der i samarbejde med TV2 LORRY, Copenhagen Business Academy og Grøn Koncert vil sætte større fokus på at inddrage de unge i demokratiet – herunder kommunalvalget. Vi tager udgangspunkt i kommunalvalget som finder sted november 2017. Kampagnens målgruppe har til formål at ramme de unge imellem 18-25 år, da det ifølge statistikker, er den aldersgruppe, hvor færre og færre stemmer. Faktisk er niveauet af manglende stemmer blandt de unge så kritisk, at der ved sidste kommunalvalg var næsten hele 40% af 18-29 årige som valgte ikke at stemme. Det er disse tal vi ved vores kampagne vil forsøge at forbedre!</p>
             </div>
             <div class="col s12 m12 l4 omosLogoHolder">

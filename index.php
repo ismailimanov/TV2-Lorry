@@ -16,6 +16,15 @@ include("header.php");
             <div class="container top">
                 <div class="row">
                     <div class="col s12 m8 l8 hvad">
+                        <h1>HVORFOR ER DET NICE AT STEMME?</h1>
+                        <p class="flow-text">
+                            FORDI…..
+                            Du får muligheden for at få 50% rabat på Grøn Koncert biletter 2018,
+                            det er også muligt at vinde dem gratis, hvis du deltager i vores Instagram
+                            Konkurrence – læs mere her! Derudover kan du slukke tørsten efter din
+                            stemme ved at snuppe en gratis fadøl ved udgangen ved dit nærmeste valgsted.
+                            Så KOM NED og stem for faén og skål med vennerne efter!
+                        </p>
                         <h1>Hvad fuck er valg?</h1>
                         <p class="flow-text">Kommunalvalg bør interessere dig, hvis du ønsker flere billige ungdomsboliger i din kommune. Federe skaterbaner, sportsmuligheder og flere mødesteder, hvor i kan hænge ud. Bedre og større parkeringspladser til din øse, og ikke mindst flottere cykelstier, så turen bliver meget federe. Hvis du er træt af for få busforbindelser og for høje priser, og hvis du mangler et fritidsjob tæt på dit hjem! Hvis du uheldigvis står uden hjem eller har været igennem misbrug eller et liv i kriminalitet, så vil din indflydelse på kommunalvalget kunne gøre en forskel på de her ting ud af mange mange flere!</p>
                     </div>
