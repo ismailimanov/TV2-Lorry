@@ -23,11 +23,11 @@
         while($data = mysqli_fetch_array($hentData)){
             ?>
             <div class="kontaktBoks">
-                <b>Fulde Navn:</b> <?=$data["fuldeNavn"];?><br>
-                <b>E-mail Adresse:</b> <a href="mailto:<?=$data["emailAdresse"];?>"><?=$data["emailAdresse"];?></a><br>
-                <b>Emne:</b> <?=$data["emne"];?><br>
+                <b>Fulde Navn:</b> <?=htmlspecialchars(strip_tags($data["fuldeNavn"]));?><br>
+                <b>E-mail Adresse:</b> <a href="mailto:<?=htmlspecialchars(strip_tags($data["emailAdresse"]));?>"><?=htmlspecialchars(strip_tags($data["emailAdresse"]));?></a><br>
+                <b>Emne:</b> <?=htmlspecialchars(strip_tags($data["emne"]));?><br>
                 <b>Besked:</b><br>
-                <?=$data["besked"];?>
+                <?=htmlspecialchars(strip_tags($data["besked"]));?>
             </div>
             <?php
         }
