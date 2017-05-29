@@ -15,7 +15,6 @@ include("inc/config.php");
             echo "<title>Kontakt Os - FADBAMSEVALG17 - Kommunalvalg 2017</title>";
         }
     ?>
-    <title>FADBAMSEVALG17 - Kommunalvalg 2017</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link href="css/style.css" type="text/css" rel="stylesheet">
@@ -59,7 +58,7 @@ include("inc/config.php");
             <div class="col s4 m4 l4">
                 <a href="forside" class="logoLink">
                     <div class="logoHolder">
-                        <img src="img/logo.svg" class="logo">
+                        <img src="img/logo.svg" class="logo" alt="Logo billede">
                         <div class="logoTekst">
                             FADBAMSEVALG
                         </div>

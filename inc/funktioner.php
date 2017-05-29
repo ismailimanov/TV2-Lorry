@@ -6,7 +6,7 @@
 
         while($data = mysqli_fetch_array($hentData)){
             ?>
-            <img src="<?=$data["billedeLink"]?>"><br>
+            <img src="<?=$data["billedeLink"]?>" alt="Person billede"><br>
             <span><?=$data["fuldeNavn"]?></span>
             <p class="flow-text"><b>For at inddrage de unge bedre i demokratiet, skal der være</b> <?=$data["citat"]?></p>
             <?php
