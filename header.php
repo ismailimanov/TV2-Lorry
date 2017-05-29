@@ -13,6 +13,8 @@ include("inc/config.php");
             echo "<title>Om Os - FADBAMSEVALG17 - Kommunalvalg 2017</title>";
         } elseif($filNavn == "kontaktos"){
             echo "<title>Kontakt Os - FADBAMSEVALG17 - Kommunalvalg 2017</title>";
+        } elseif($filNavn == "admin"){
+            echo "<title>Admin Panel - FADBAMSEVALG17 - Kommunalvalg 2017</title>";
         }
     ?>
     <meta charset="utf-8">

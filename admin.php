@@ -11,7 +11,7 @@ include("header.php");
                     hentBeskeder($link);
                 } else {
                     ?>
-                    <form action="" method="post" class="adminLogind">
+                    <form action="#" method="post" class="adminLogind">
                         <input type="password" name="logind" placeholder="Kodeord">
                         <button>Log ind</button>
                     </form>
